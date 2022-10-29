@@ -1,3 +1,28 @@
+@font-face {
+  font-family: Raleway-700;
+  src: url(../fonts/raleway-v28-cyrillic-700.ttf);
+}
+@font-face {
+  font-family: Roboto-regular;
+  src: url(../fonts/roboto-v30-cyrillic-regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-500;
+  src: url(../fonts/roboto-v30-cyrillic-500.ttf);
+}
+
+@font-face {
+  font-family: Roboto-700;
+  src: url(../fonts/raleway-v28-cyrillic-700.ttf);
+}
+
+@font-face {
+  font-family: Roboto-900;
+  src: url(../fonts/roboto-v30-cyrillic-900.ttf);
+}
+
+
 :root {
   --color-bg-header-and-logo-btn-addres: #ffffff;
   --color-logo-and-focus-btn-hero: #2196f3;
@@ -27,7 +52,8 @@ ul {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto-regular, sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   font-size: 14px;
   color: var(--color-contacts-and-paragraph);
 }
@@ -90,7 +116,8 @@ body {
   margin-right: 93px;
 }
 .logo-colored {
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway-700, sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -104,6 +131,7 @@ body {
 .navigation__link {
   padding: 32px 0;
   display: block;
+  font-family: Roboto-500, sans-serif;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -141,6 +169,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+    font-family: Roboto-500, sans-serif;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -189,6 +218,7 @@ body {
   margin-bottom: 30px;
   max-width: 696px;
   vertical-align: middle;
+    font-family: Roboto-900, sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -201,6 +231,7 @@ body {
 .hero__button {
   background: var(--color-logo-and-focus-btn-hero);
   font-family: inherit;
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -290,6 +321,7 @@ body {
   min-height: 70px;
   width: 100%;
   background: rgba(47, 48, 58, 0.8);
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -322,6 +354,7 @@ body {
 }
 .our-tim__workers {
   margin-bottom: 10px;
+    font-family: Roboto-500, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -432,6 +465,7 @@ body {
   border: 1px solid transparent;
   background: var(--color-bg-our-tim-and-bg-button-our-projects);
   font-family: inherit;
+    font-family: Roboto-500, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -530,7 +564,7 @@ body {
   padding: 60px 0px;
 }
 
-.logo__light {
+.logo__part-light {
   color: var(--color-bg-header-and-logo-btn-addres);
 }
 
@@ -587,6 +621,7 @@ body {
 }
 
 .soc-join__text {
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -632,6 +667,7 @@ body {
 
 .subscribe__title {
   margin-bottom: 20px;
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -755,6 +791,7 @@ body {
 
 .modal__title {
   margin-bottom: 12px;
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -797,6 +834,7 @@ body {
   padding: 10px 52px;
   margin: 0px auto;
   font-family: inherit;
+    font-family: Roboto-700, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
