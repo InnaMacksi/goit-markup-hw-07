@@ -82,7 +82,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-//   width: calc((100% - 60px) / 3);
+}
+
+.projects__item {
+  width: calc((100% - 60px) / 3);
 }
 
 .projects__type {
